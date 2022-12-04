@@ -3,15 +3,19 @@ body{
   background-image: url('../src/static/images/scattered-forcefields.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  bottom: 0;
 
 }
-
-
 
 .cards{
   display: flex;
   flex-direction: row;
 
+}
+
+.footerElements{
+  display: flex;
+  justify-content: start;
 }
 
 
