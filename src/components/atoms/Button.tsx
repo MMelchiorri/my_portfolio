@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import button from "@/styles/button.module.css"
 
 type ButtonFieldProps = {
     children: ReactNode;
@@ -6,5 +7,6 @@ type ButtonFieldProps = {
 };
 
 export default function Button({ children }: ButtonFieldProps) {
-    return <button>{children}</button>;
+    return <button className={button.navBar}>{children}</button>;
+
 }
