@@ -2,7 +2,7 @@ import {ReactNode} from "react";
 
 type InputProps = {
     value: string,
-    handleChange: ()=> void
+    handleChange: ()=> void 
 }
 
 export default function Input ({value, handleChange}: InputProps):ReactNode {
