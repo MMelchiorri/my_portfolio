@@ -1,0 +1,15 @@
+.navbar {
+    width: 100%;
+    background-color: red;
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.container {
+    display: flex;
+    min-width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
