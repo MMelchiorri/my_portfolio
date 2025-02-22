@@ -1,4 +1,4 @@
 export type InputProps = {
-    value: string,
-    handleChange: ()=> void 
+  value: string
+  handleChange: () => void
 }

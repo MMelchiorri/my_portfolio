@@ -1,5 +1,5 @@
-import { NavLinkProps} from "./NavLinkProps";
+import { NavLinkProps } from './NavLinkProps'
 
-export type NavBarProps ={
-    items: NavLinkProps[]
-} 
+export type NavBarProps = {
+  items: NavLinkProps[]
+}

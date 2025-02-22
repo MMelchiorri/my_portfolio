@@ -9,7 +9,12 @@ export default function Navbar({ items }: NavBarProps) {
     <nav className={nav.navbar}>
       <div className={nav.container}>
         {items.map((elem, index) => (
-          <NavLink key={index} name={elem.name} link={elem.link} icon={elem.icon} />
+          <NavLink
+            key={index}
+            name={elem.name}
+            link={elem.link}
+            icon={elem.icon}
+          />
         ))}
       </div>
     </nav>
