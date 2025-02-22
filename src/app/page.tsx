@@ -2,12 +2,18 @@
 
 import Navbar from "@/components/organisms/NavBar";
 import styles from "./page.module.css";
+import home from '../../public/icon/home.svg'
+import about from '../../public/icon/about_me.svg'
+import github from '../../public/icon/github.svg'
+import contact from '../../public/icon/contact.svg'
+
+
 
 const navItems = [
-    { name: "Home", link: "/" },
-    { name: "About", link: "/about" },
-    { name: "Services", link: "/services" },
-    { name: "Contact", link: "/contact" }
+    { name: "Home", link: "/", icon:home },
+    { name: "About", link: "/about",icon:about },
+    { name: "Services", link: "https://github.com/MMelchiorri", icon:github },
+    { name: "Contact", link: "/contact", icon:contact }
 ];
 export default function Home() {
   return (

@@ -1,6 +1,6 @@
 .navbar {
     width: 100%;
-    background-color: red;
+    background-color: rgb( 15, 23, 42);
     min-height: 50px;
     display: flex;
     justify-content: flex-end;
@@ -12,4 +12,9 @@
     min-width: 30%;
     justify-content: space-between;
     align-items: center;
+}
+
+.link {
+    color: rgb(100, 116, 139);
+    text-decoration: none;
 }
